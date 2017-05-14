@@ -33,4 +33,4 @@ while count != len(data['urls']):
 
         time.sleep(2)
     print('Now has been downloaded', count)
-
+data.close()
